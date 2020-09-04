@@ -15,7 +15,9 @@ const TopPage = () => {
         })
         // eslint-disable-next-line
     }, [])
+
     console.log(globalState)
+
     return (
         <div style={{ display: 'flex', flexWrap: 'wrap' }}>
             {
